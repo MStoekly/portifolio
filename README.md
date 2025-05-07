@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mateus Stoekly - Data Analyst</title>
+  <title>Resume – Mateus Stoekly</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -13,7 +14,7 @@
       margin: auto;
       padding: 20px;
     }
-    h1, h2, h3 {
+    h2, h3 {
       color: #005288;
     }
     section {
@@ -22,11 +23,8 @@
     .contact {
       font-size: 0.95em;
     }
-    ul {
-      padding-left: 20px;
-    }
 
-    /* Skill Chart Styles */
+    /* Skill Bar Styles */
     .skills-grid {
       display: flex;
       gap: 40px;
@@ -55,21 +53,21 @@
       display: block;
     }
 
+    /* Proficiency levels */
     .p100 { width: 100%; }
-    .p90 { width: 90%; }
-    .p85 { width: 85%; }
-    .p80 { width: 80%; }
-    .p75 { width: 75%; }
-    .p70 { width: 70%; }
-    .p60 { width: 60%; }
+    .p90  { width: 90%; }
+    .p85  { width: 85%; }
+    .p80  { width: 80%; }
+    .p75  { width: 75%; }
+    .p70  { width: 70%; }
+    .p60  { width: 60%; }
   </style>
 </head>
 <body>
 
-  <h1>Mateus Stoekly</h1>
   <p class="contact">
-    Curitiba, PR | +55 41 99980-3022 | 
-    <a href="mailto:mateus.stoekly@gmail.com">mateus.stoekly@gmail.com</a> | 
+    Curitiba, PR | +55 41 99980-3022 |
+    <a href="mailto:mateus.stoekly@gmail.com">mateus.stoekly@gmail.com</a> |
     <a href="https://linkedin.com/in/mateus.stoekly" target="_blank">LinkedIn</a>
   </p>
 
@@ -80,6 +78,7 @@
 
   <section>
     <h2>Skills</h2>
+
     <h3>Hard Skills</h3>
     <div class="skills-grid">
       <div class="skill-column">
@@ -97,14 +96,19 @@
     </div>
 
     <h3>Human Skills</h3>
-    <ul>
-      <li>Data Storytelling</li>
-      <li>Critical Thinking</li>
-      <li>Communication</li>
-      <li>Problem Solving</li>
-      <li>Teamwork & Adaptability</li>
-      <li>Time Management</li>
-    </ul>
+    <div class="skills-grid">
+      <div class="skill-column">
+        <div class="skill"><div class="skill-name">Data Storytelling</div><div class="bar"><span class="bar-fill p85"></span></div></div>
+        <div class="skill"><div class="skill-name">Communication</div><div class="bar"><span class="bar-fill p90"></span></div></div>
+        <div class="skill"><div class="skill-name">Time Management</div><div class="bar"><span class="bar-fill p80"></span></div></div>
+      </div>
+      <div class="skill-column">
+        <div class="skill"><div class="skill-name">Critical Thinking</div><div class="bar"><span class="bar-fill p85"></span></div></div>
+        <div class="skill"><div class="skill-name">Problem Solving</div><div class="bar"><span class="bar-fill p80"></span></div></div>
+        <div class="skill"><div class="skill-name">Teamwork & Adaptability</div><div class="bar"><span class="bar-fill p75"></span></div></div>
+      </div>
+    </div>
+
   </section>
 
   <section>
