@@ -1,8 +1,7 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Mateus Stoekly - Data Analyst</title>
   <style>
     body {
@@ -26,16 +25,86 @@
     ul {
       padding-left: 20px;
     }
+
+    /* Skill Chart Styles */
+    .skills-grid {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .skill-column {
+      flex: 1;
+      min-width: 300px;
+    }
+    .skill {
+      margin-bottom: 10px;
+    }
+    .skill-name {
+      font-size: 0.95em;
+      margin-bottom: 3px;
+    }
+    .bar {
+      background: #ddd;
+      border-radius: 5px;
+      height: 10px;
+      overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%;
+      background: #005288;
+      display: block;
+    }
+
+    .p100 { width: 100%; }
+    .p90 { width: 90%; }
+    .p85 { width: 85%; }
+    .p80 { width: 80%; }
+    .p75 { width: 75%; }
+    .p70 { width: 70%; }
+    .p60 { width: 60%; }
   </style>
 </head>
 <body>
 
   <h1>Mateus Stoekly</h1>
-  <p class="contact">Curitiba, PR | +55 41 99980-3022 | <a href="mailto:mateus.stoekly@gmail.com">mateus.stoekly@gmail.com</a> | <a href="https://linkedin.com/in/mateus.stoekly" target="_blank">LinkedIn</a></p>
+  <p class="contact">
+    Curitiba, PR | +55 41 99980-3022 | 
+    <a href="mailto:mateus.stoekly@gmail.com">mateus.stoekly@gmail.com</a> | 
+    <a href="https://linkedin.com/in/mateus.stoekly" target="_blank">LinkedIn</a>
+  </p>
 
   <section>
     <h2>Summary</h2>
     <p>Dynamic and results-oriented Data Analyst with a proven ability to transform complex datasets into actionable insights. Proficient in SQL, Power BI, and advanced Excel VBA. Experienced in public and private sectors, optimizing workflows, automating processes, and supporting strategic decision-making through data visualization and predictive analytics.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <h3>Hard Skills</h3>
+    <div class="skills-grid">
+      <div class="skill-column">
+        <div class="skill"><div class="skill-name">SQL</div><div class="bar"><span class="bar-fill p90"></span></div></div>
+        <div class="skill"><div class="skill-name">Excel (VBA)</div><div class="bar"><span class="bar-fill p90"></span></div></div>
+        <div class="skill"><div class="skill-name">Power BI</div><div class="bar"><span class="bar-fill p85"></span></div></div>
+        <div class="skill"><div class="skill-name">ETL Processes</div><div class="bar"><span class="bar-fill p80"></span></div></div>
+      </div>
+      <div class="skill-column">
+        <div class="skill"><div class="skill-name">Data Visualization</div><div class="bar"><span class="bar-fill p85"></span></div></div>
+        <div class="skill"><div class="skill-name">Cloud Platforms</div><div class="bar"><span class="bar-fill p70"></span></div></div>
+        <div class="skill"><div class="skill-name">Statistical Analysis</div><div class="bar"><span class="bar-fill p75"></span></div></div>
+        <div class="skill"><div class="skill-name">Python</div><div class="bar"><span class="bar-fill p60"></span></div></div>
+      </div>
+    </div>
+
+    <h3>Human Skills</h3>
+    <ul>
+      <li>Data Storytelling</li>
+      <li>Critical Thinking</li>
+      <li>Communication</li>
+      <li>Problem Solving</li>
+      <li>Teamwork & Adaptability</li>
+      <li>Time Management</li>
+    </ul>
   </section>
 
   <section>
@@ -63,29 +132,6 @@
   <section>
     <h2>Education</h2>
     <p><strong>ESIC Business & Marketing School</strong><br>Bachelor's in International Business — Jan 2020 to Dec 2023</p>
-  </section>
-
-  <section>
-    <h2>Skills</h2>
-    <h3>Hard Skills</h3>
-    <ul>
-      <li>SQL & Data Management</li>
-      <li>Advanced Excel (Formulas and VBA)</li>
-      <li>ETL Processes & Automation</li>
-      <li>Power BI, Tableau</li>
-      <li>Cloud Platforms</li>
-      <li>Statistical Analysis</li>
-      <li>Python</li>
-    </ul>
-    <h3>Human Skills</h3>
-    <ul>
-      <li>Data Storytelling</li>
-      <li>Critical Thinking</li>
-      <li>Communication</li>
-      <li>Problem Solving</li>
-      <li>Teamwork & Adaptability</li>
-      <li>Time Management</li>
-    </ul>
   </section>
 
   <section>
